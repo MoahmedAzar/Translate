@@ -1,2 +1,8 @@
-app_name = 'arkan'
-doc_events = {}
+app_name = "arkan"
+app_title = "Arkan"
+app_publisher = "Mohamed Azarudeen"
+app_description = "Arabic Translation for Item Name"
+app_icon = "octicon octicon-globe"
+app_color = "blue"
+app_email = "azar.maasconsult@gmail.com"
+app_license = "MIT"

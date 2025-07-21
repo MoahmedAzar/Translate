@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="arkan",
     version="0.0.1",
-    description="Arkan Custom App",
+    description="Arkan Translation App",
     author="Mohamed Azarudeen",
     author_email="azar.maasconsult@gmail.com",
     packages=find_packages(),
