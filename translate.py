@@ -10,12 +10,10 @@ def translate_to_arabic(text):
             "target": "ar",
             "format": "text"
         }})
-
         if response.status_code == 200:
             return response.json().get("translatedText")
         else:
             frappe.throw("Translation API error")
-
     except Exception as e:
         frappe.log_error(frappe.get_traceback(), "Translation Error")
         frappe.throw("Translation failed due to server error")
